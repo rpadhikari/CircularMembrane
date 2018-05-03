@@ -1,3 +1,12 @@
+! This is the main program to compute the 2D displacement and vibration of circular membrane.
+! Application: simulating ear-drum vibration patterns.
+! this program uses the fillowing two functions:
+!    1) factorial
+!    2) Bessel functions and its roots
+!    3) Umn
+! Written by Rajendra Adhikari, Kathmandu University
+! date: may 1st, 2018
+!
 program membrane
   implicit none
   integer(4) i, j, k
