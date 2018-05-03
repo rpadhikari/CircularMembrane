@@ -19,7 +19,7 @@ real(8) function Umn(m, n, r, theta, t)
   real(8), external :: bessel ! Bessel function defined earlier
   
   open(1, file='in.data', action='read', status='old') ! membrane parameters
-  open(2, file='root.data', action='read', status='old') ! roots file
+  open(2, file='roots.data', action='read', status='old') ! roots file
   read(1,*) nrr 
   read(1,*) rho
   read(1,*) height
